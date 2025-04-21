@@ -1,0 +1,172 @@
+#about {
+  text-align: justify;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #eaf4fb; 
+  color: #2c3e50;
+  padding: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+  background-image: url('Background.png');
+  background-repeat: repeat;
+  background-size: 200px; 
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a {
+  color: #1f78c1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #1f78c1; 
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.navbar h1 {
+  font-size: 28px;
+}
+
+.navbar div a {
+  color: white;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.navbar div a:hover {
+  color: #d0e8f9;
+}
+
+section {
+  padding: 25px;
+  margin: 25px 0;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.section-header {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #1f4e79;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.section-header .year {
+  font-size: 16px;
+  color: #547aa5;
+  margin-left: 12px;
+}
+
+.card {
+  padding: 18px;
+  background-color: #f0f7fc; 
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+  margin-top: 10px;
+}
+
+.card p {
+  margin-bottom: 8px;
+}
+
+.card ul {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+.card ul li {
+  margin-bottom: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid #c7dcef;
+}
+
+table td strong {
+  color: #1f4e79;
+}
+
+.contact-icons {
+  margin-top: 15px;
+}
+
+.contact-icons a {
+  color: #1f78c1;
+  font-size: 22px;
+  margin-right: 18px;
+}
+
+.contact-icons a:hover {
+  color: #0e5d94;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar div {
+    margin-top: 10px;
+  }
+
+  .navbar div a {
+    margin: 5px 10px 0 0;
+  }
+
+  section {
+    padding: 20px;
+    margin: 15px 0;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card ul {
+    padding-left: 20px;
+  }
+
+  .card ul li {
+    margin-bottom: 5px;
+  }
+}
